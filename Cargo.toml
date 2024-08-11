@@ -1,0 +1,13 @@
+[package]
+name = "conpac"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+clap = "^3.1.0"
+serde_yaml = "0.9.34"
+toml = "~0.8.16"
+rusqlite = "~0.32.0"
+serde = { version = "~1.0.204", features = ["derive"] }
+reqwest = "~0.12.5"
+tokio = "~1.39.1"

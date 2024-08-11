@@ -1,0 +1,36 @@
+# Compiled binary files
+/target/
+
+# Build artifacts
+*.rs.bk
+*.rs.bk2
+
+# Cargo.lock for libraries (only ignore it if you’re a library)
+# Cargo.lock
+# Uncomment the line above if you're developing a library and you want to ignore Cargo.lock
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# OS-specific files
+*.swp
+*.swo
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if you’re using Node.js in your project)
+node_modules/
+
+# Rust-specific files
+*.rlib
+*.rmeta
+
+
+downloads/
